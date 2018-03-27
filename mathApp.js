@@ -18,4 +18,7 @@ function Quadratic() {
         return "The roots to the quadratic are" x1 "&" x2;
     }
 }
+function displayAnswer(){
+    return document.getElementById('solutions').textContent = Quadratic();
+}
 button.addEventListener('click', Quadratic);
